@@ -4,6 +4,9 @@ starship init fish | source
 # Terminal true-color support
 set -g fish_term24bit 1
 
+# Set Vim as default editor
+set -gx EDITOR vim
+
 # Volta path
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
